@@ -4,15 +4,16 @@ use Vango;
 
 create table Cadastro(
 	id int primary key auto_increment,
-    nome varchar(45) not null,
-    data_de_nascimneto date not null,
-    email varchar(255) not null,
-    celular varchar(45) not null,
-    senha varchar(45) not null,
-    logradouro varchar(45),
-    numeroCasa varchar(45),
-    cep varchar(8),
-    alunoOuMotorista varchar(45)
+    nome varchar(100) ,
+    data_de_nascimento varchar(100) ,
+    email varchar(255) ,
+    celular varchar(100) ,
+    senha varchar(100) ,
+    bairro varchar(100),
+    rua varchar(100),
+    numeroCasa varchar(100),
+    estado varchar(100),
+    cidade varchar(100)
     
 );
 create table Instituicoes(
